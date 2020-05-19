@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9b4e2ff710f237e697be9d568a7eeb85",
+    "revision": "d958e4c19df42a4d293582591b29fe80",
     "url": "/crehana-test/index.html"
   },
   {
-    "revision": "99959ed04ec7eabf129f",
-    "url": "/crehana-test/static/css/main.f9a6f15b.chunk.css"
+    "revision": "08b432dedc9f6cda0d64",
+    "url": "/crehana-test/static/css/main.ae29d017.chunk.css"
   },
   {
     "revision": "3e85357c903ec4ecebf1",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/crehana-test/static/js/2.2bef22f8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "99959ed04ec7eabf129f",
-    "url": "/crehana-test/static/js/main.0c20833e.chunk.js"
+    "revision": "08b432dedc9f6cda0d64",
+    "url": "/crehana-test/static/js/main.4fc88760.chunk.js"
   },
   {
     "revision": "a45194fa6440c607c0f4",

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/crehana-test/precache-manifest.f4157489c42e718ef95f754549406f5b.js"
+  "/crehana-test/precache-manifest.ae563e31eececc7efa4374cc7c766842.js"
 );
 
 self.addEventListener('message', (event) => {

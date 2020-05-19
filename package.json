@@ -1,46 +1,49 @@
 {
-  "name": "crehana",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@apollo/react-hooks": "^3.1.5",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "@types/jest": "^25.2.3",
-    "@types/lodash": "^4.14.151",
-    "@types/node": "^14.0.1",
-    "@types/react": "^16.9.35",
-    "@types/react-dom": "^16.9.8",
-    "apollo-boost": "^0.4.9",
-    "graphql": "^15.0.0",
-    "lodash": "^4.17.15",
-    "moment": "^2.25.3",
-    "node-sass": "^4.14.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "typescript": "^3.9.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+	"name": "crehana",
+	"version": "0.1.0",
+	"private": true,
+	"homepage": "https://i-xarlos.github.io/crehana-test",
+	"dependencies": {
+		"@apollo/react-hooks": "^3.1.5",
+		"@testing-library/jest-dom": "^4.2.4",
+		"@testing-library/react": "^9.3.2",
+		"@testing-library/user-event": "^7.1.2",
+		"@types/jest": "^25.2.3",
+		"@types/lodash": "^4.14.151",
+		"@types/node": "^14.0.1",
+		"@types/react": "^16.9.35",
+		"@types/react-dom": "^16.9.8",
+		"apollo-boost": "^0.4.9",
+		"gh-pages": "^2.2.0",
+		"graphql": "^15.0.0",
+		"moment": "^2.25.3",
+		"node-sass": "^4.14.1",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-scripts": "3.4.1",
+		"typescript": "^3.9.2"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"predeploy": "yarn build",
+		"deploy": "gh-pages -d build"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
 }

@@ -4,11 +4,20 @@ import moment from 'moment';
 import './card.styles.scss';
 
 export function Card(props: any) {
-	const { id, title, children, onClick, className, ...otherProps } = props;
+	const {
+		id,
+		title,
+		email,
+		children,
+		onClick,
+		className,
+		...otherProps
+	} = props;
 	return (
 		<div
 			className={`card-container ${className ? className : ''}`}
 			onClick={onClick}
+			data-testid="card"
 		>
 			<img
 				loading="lazy"
@@ -19,7 +28,16 @@ export function Card(props: any) {
 			<h2>{title}</h2>
 
 			{children}
-			{otherProps.userEmail ? <p>Email: {otherProps.userEmail} </p> : ''}
+			{email ? (
+				<p>
+					Email:{' '}
+					<a className="email" href={`mailto:${email}`}>
+						{email}
+					</a>{' '}
+				</p>
+			) : (
+				''
+			)}
 			<p>Posted at: {moment(otherProps.postedAt).format('MMM Do YY')}</p>
 			<p>Company: {otherProps.company.name}</p>
 			{otherProps.countries.map((item: any) => (

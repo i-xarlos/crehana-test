@@ -30,15 +30,10 @@
         margin: 0 auto;
     }
 
-    .close {
-        position: absolute;
-        right: 20px;
-        top: 20px;
-        width: 2rem;
-        height: 2rem;
+
+    .email {
+        color: orangered;
     }
-
-
 
     &:hover {
         transform: scale(1.05);
@@ -51,6 +46,15 @@
     background-color: orange;
 
     margin-top: 3rem;
+
+    .close {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        width: 2rem;
+        height: 2rem;
+    }
+
 }
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 import './card-list.style.scss';
 import { Card } from '../card/card.component';
 
-export function CardList(props: any) {
+export function CardList(props: any): JSX.Element {
 	const { search } = props;
 	return (
 		<div className="card-list">
@@ -12,7 +12,7 @@ export function CardList(props: any) {
 						key={key}
 						{...job}
 						name={job.title}
-						email={job.email}
+						email={job.userEmail}
 					/>
 				);
 			})}

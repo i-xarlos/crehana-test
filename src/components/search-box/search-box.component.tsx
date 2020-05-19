@@ -1,7 +1,11 @@
 import React from 'react';
 import './search-box.styles.scss';
 
-export default function SearchBox(props: any): JSX.Element {
+type Props = {
+	onChange?: any,
+};
+
+const SearchBox: React.FC<Props> = (props: any) => {
 	const handleInputChange = (e: any) => {
 		const val = e.target.value;
 		props.onChange && props.onChange(val);
@@ -14,4 +18,5 @@ export default function SearchBox(props: any): JSX.Element {
 			onChange={(e) => handleInputChange(e)}
 		/>
 	);
-}
+};
+export default SearchBox;

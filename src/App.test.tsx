@@ -1,9 +1,20 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, fireEvent, waitFor, screen } from '@testing-library/react';
+import '@testing-library/jest-dom/extend-expect';
+import { ApolloProvider } from '@apollo/react-hooks';
+import { client } from './graphql';
 import App from './App';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+/*describe('App', () => {
+	test('verify validation', () => {});
+	test('submit data', () => {});
+});*/
+
+test('loads and displays App.tsx', async () => {
+	const { debug } = render(
+		<ApolloProvider client={client}>
+			<App />
+		</ApolloProvider>,
+	);
+	debug();
 });

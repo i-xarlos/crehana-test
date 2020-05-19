@@ -1,9 +1,9 @@
 import React from 'react';
 import './select-box.styles.scss';
 type Props = {
-	name: string,
-	onChange: any,
-	data: any,
+	name?: string,
+	onChange?: any,
+	data?: any,
 };
 const SelectBox: React.FC<Props> = ({ name, data, onChange }) => {
 	const handleSelectChange = (e: any) => {

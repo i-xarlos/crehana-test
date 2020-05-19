@@ -1,0 +1,19 @@
+.select-box {
+    margin: 0 auto;
+    font-size: calc(1rem + 2vmin);
+    text-align: center;
+    padding: .5rem 1rem 1rem 1rem;
+    background-color: rgb(2, 0, 35);
+    color: white;
+    -webkit-appearance: none;
+    border-radius: 10rem;
+    border: 2px solid #0c0f48;
+    transition: ease-in .3s all;
+    margin: 1rem;
+
+    &:focus {
+        color: white;
+        border: dotted 4px #ff4a04;
+        background-color: #23232d;
+    }
+}

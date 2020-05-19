@@ -1,8 +1,10 @@
-import React, { Fragment, useState } from 'react';
+import React, { useState } from 'react';
 import { useQuery } from '@apollo/react-hooks';
 import { gql } from 'apollo-boost';
 import SearchBox from '../../components/search-box/search-box.component';
 import { CardList } from '../../components/card-list/card-list.component';
+import SelectBox from '../../components/select-box/select-box.component';
+import './homepage.styles.scss';
 
 const JOBS = gql`
 	{
@@ -42,10 +44,17 @@ const HomePage = () => {
 	};
 
 	return (
-		<Fragment>
-			<SearchBox onChange={handleChange} />
+		<div className="home-page">
+			<h1>Find your job</h1>
+			<header className="header-home-page">
+				<SearchBox onChange={handleChange} />
+				<SelectBox />
+				<SelectBox />
+				<SelectBox />
+			</header>
+
 			{listJobs()}
-		</Fragment>
+		</div>
 	);
 };
 export default HomePage;

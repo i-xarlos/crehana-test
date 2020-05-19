@@ -11,9 +11,10 @@ export function Card(props: any) {
 			onClick={onClick}
 		>
 			<img
+				loading="lazy"
 				className="image"
 				alt={title}
-				src={`https://robohash.org/${id}?size=200x200`}
+				src={`https://robohash.org/${id}?set=set3&size=200x200`}
 			/>
 			<h2>{title}</h2>
 
@@ -21,6 +22,9 @@ export function Card(props: any) {
 			{otherProps.userEmail ? <p>Email: {otherProps.userEmail} </p> : ''}
 			<p>Posted at: {moment(otherProps.postedAt).format('MMM Do YY')}</p>
 			<p>Company: {otherProps.company.name}</p>
+			{otherProps.countries.map((item: any) => (
+				<p key={item.id}>Country: {item.name}</p>
+			))}
 		</div>
 	);
 }

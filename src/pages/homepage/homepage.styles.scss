@@ -1,18 +1,32 @@
 .home-page {
     h1 {
-        font-size: 4rem;
+        font-size: 6rem;
     }
 
     .header-home-page {
         margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
     }
+
+
+}
+
+.loading,
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 2rem;
 }
 
 @media only screen and (max-width:620px) {
     .home-page {
         h1 {
             margin-top: 3rem;
-            font-size: 2rem;
+            font-size: 3rem;
         }
     }
 }

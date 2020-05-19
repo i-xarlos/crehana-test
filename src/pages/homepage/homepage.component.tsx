@@ -87,8 +87,8 @@ const HomePage = () => {
 				const aDate: Date = new Date(a.postedAt);
 				const bDate: Date = new Date(b.postedAt);
 				return recently
-					? bDate.getTime() > aDate.getTime()
-					: bDate.getTime() < aDate.getTime();
+					? bDate.getTime() - aDate.getTime()
+					: aDate.getTime() - bDate.getTime();
 			});
 
 		return <CardList search={search} />;

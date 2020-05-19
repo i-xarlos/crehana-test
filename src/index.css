@@ -10,7 +10,13 @@ body {
 }
 
 html {
-   font-size: 62.5%;
+  font-size: 62.5%;
+}
+
+textarea:focus,
+select:focus,
+input:focus {
+  outline: none;
 }
 
 code {

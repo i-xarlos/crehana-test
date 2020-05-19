@@ -23,6 +23,8 @@ export function Card(props: any) {
 				loading="lazy"
 				className="image"
 				alt={title}
+				width="200"
+				height="200"
 				src={`https://robohash.org/${id}?set=set3&size=200x200`}
 			/>
 			<h2>{title}</h2>

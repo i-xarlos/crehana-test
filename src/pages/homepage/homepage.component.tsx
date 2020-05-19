@@ -91,7 +91,7 @@ const HomePage = () => {
 					: aDate.getTime() - bDate.getTime();
 			});
 
-		return <CardList search={search} />;
+		return search.length === 0 ? <div className="not-coencidences">No coincidences</div> : <CardList search={search} />;
 	};
 
 	return (

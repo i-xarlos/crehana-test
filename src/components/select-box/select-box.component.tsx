@@ -27,7 +27,7 @@ const SelectBox: React.FC<Props> = ({ name, data, onChange }) => {
 			data-testid="select-box"
 			onChange={(e) => handleSelectChange(e)}
 		>
-			<option value="">All {name} ▼</option>
+			<option value="">{name === 'dates' ? 'Sort by':'All'} {name} ▼</option>
 			{listCountries()}
 		</select>
 	);

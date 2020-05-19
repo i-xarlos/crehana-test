@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/crehana-test/static/css/main.e5669473.chunk.css",
-    "main.js": "/crehana-test/static/js/main.f9d43e37.chunk.js",
-    "main.js.map": "/crehana-test/static/js/main.f9d43e37.chunk.js.map",
+    "main.css": "/crehana-test/static/css/main.aa27418e.chunk.css",
+    "main.js": "/crehana-test/static/js/main.16e79128.chunk.js",
+    "main.js.map": "/crehana-test/static/js/main.16e79128.chunk.js.map",
     "runtime-main.js": "/crehana-test/static/js/runtime-main.faeb7e06.js",
     "runtime-main.js.map": "/crehana-test/static/js/runtime-main.faeb7e06.js.map",
     "static/js/2.2bef22f8.chunk.js": "/crehana-test/static/js/2.2bef22f8.chunk.js",
     "static/js/2.2bef22f8.chunk.js.map": "/crehana-test/static/js/2.2bef22f8.chunk.js.map",
     "index.html": "/crehana-test/index.html",
-    "precache-manifest.b49fe219e1317e2a0a7363887d1edb82.js": "/crehana-test/precache-manifest.b49fe219e1317e2a0a7363887d1edb82.js",
+    "precache-manifest.9982b6493dc2e4a0e27a6e9617def9d3.js": "/crehana-test/precache-manifest.9982b6493dc2e4a0e27a6e9617def9d3.js",
     "service-worker.js": "/crehana-test/service-worker.js",
-    "static/css/main.e5669473.chunk.css.map": "/crehana-test/static/css/main.e5669473.chunk.css.map",
+    "static/css/main.aa27418e.chunk.css.map": "/crehana-test/static/css/main.aa27418e.chunk.css.map",
     "static/js/2.2bef22f8.chunk.js.LICENSE.txt": "/crehana-test/static/js/2.2bef22f8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.faeb7e06.js",
     "static/js/2.2bef22f8.chunk.js",
-    "static/css/main.e5669473.chunk.css",
-    "static/js/main.f9d43e37.chunk.js"
+    "static/css/main.aa27418e.chunk.css",
+    "static/js/main.16e79128.chunk.js"
   ]
 }

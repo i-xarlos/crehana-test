@@ -1,0 +1,64 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1b40;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    position: relative;
+
+    h2 {
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+
+    .image {
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .close {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        width: 2rem;
+        height: 2rem;
+    }
+
+
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.card-detail {
+    width: 30vw;
+    margin: 0 auto;
+    background-color: orange;
+
+    margin-top: 3rem;
+}
+
+
+
+@media only screen and (max-width:620px) {
+
+
+    .card-detail {
+        width: 70vw;
+    }
+}

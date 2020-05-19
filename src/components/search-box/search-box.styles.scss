@@ -1,0 +1,42 @@
+.search-box {
+    margin: 0 auto;
+    font-size: calc(1rem + 2vmin);
+    text-align: center;
+    padding: .5rem 0 1rem;
+    background-color: rgb(2, 0, 35);
+    color: white;
+    -webkit-appearance: none;
+    border-radius: 10rem;
+    margin-top: 3rem;
+    border: 2px solid #0c0f48;
+    transition: ease-in .3s all;
+
+    &:focus {
+        color: white;
+        padding: .5rem 0 .8rem .8rem;
+        font-size: 3.5rem;
+        border: dotted 4px #ff4a04;
+        background-color: #23232d;
+    }
+}
+
+
+
+
+@media only screen and (max-width:620px) {
+
+    .search-box {
+        &:focus {
+            font-size: 2rem;
+            padding: 1rem 0 1rem 1rem;
+            width: 80vw;
+
+        }
+
+        &::placeholder {
+            color: white;
+            opacity: .5;
+        }
+    }
+
+}

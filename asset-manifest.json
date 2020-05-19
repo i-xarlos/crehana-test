@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/crehana/static/css/main.e5669473.chunk.css",
+    "main.js": "/crehana/static/js/main.832df345.chunk.js",
+    "main.js.map": "/crehana/static/js/main.832df345.chunk.js.map",
+    "runtime-main.js": "/crehana/static/js/runtime-main.77b32e9a.js",
+    "runtime-main.js.map": "/crehana/static/js/runtime-main.77b32e9a.js.map",
+    "static/js/2.2bef22f8.chunk.js": "/crehana/static/js/2.2bef22f8.chunk.js",
+    "static/js/2.2bef22f8.chunk.js.map": "/crehana/static/js/2.2bef22f8.chunk.js.map",
+    "index.html": "/crehana/index.html",
+    "precache-manifest.a1c90eed68b54264d04642ed280e1759.js": "/crehana/precache-manifest.a1c90eed68b54264d04642ed280e1759.js",
+    "service-worker.js": "/crehana/service-worker.js",
+    "static/css/main.e5669473.chunk.css.map": "/crehana/static/css/main.e5669473.chunk.css.map",
+    "static/js/2.2bef22f8.chunk.js.LICENSE.txt": "/crehana/static/js/2.2bef22f8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77b32e9a.js",
+    "static/js/2.2bef22f8.chunk.js",
+    "static/css/main.e5669473.chunk.css",
+    "static/js/main.832df345.chunk.js"
+  ]
+}

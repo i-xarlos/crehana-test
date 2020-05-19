@@ -22,8 +22,12 @@ const SelectBox: React.FC<Props> = ({ name, data, onChange }) => {
 		);
 	};
 	return (
-		<select className="select-box" onChange={(e) => handleSelectChange(e)}>
-			<option value="">Select {name} ▼</option>
+		<select
+			className="select-box"
+			data-testid="select-box"
+			onChange={(e) => handleSelectChange(e)}
+		>
+			<option value="">All {name} ▼</option>
 			{listCountries()}
 		</select>
 	);

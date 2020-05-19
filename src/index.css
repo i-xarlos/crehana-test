@@ -13,10 +13,15 @@ html {
   font-size: 62.5%;
 }
 
-textarea:focus,
-select:focus,
-input:focus {
+*:focus,
+*:active {
   outline: none;
+}
+
+
+::selection {
+  color: red;
+  background: yellow;
 }
 
 code {

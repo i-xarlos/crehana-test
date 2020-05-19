@@ -49,13 +49,13 @@ const HomePage = () => {
 
 	const handleSelectChange = (e: string, name: string) => {
 		switch (name.toLowerCase()) {
-			case 'country':
+			case 'countries':
 				setCountryId(e);
 				break;
-			case 'company':
+			case 'companies':
 				setCompanyId(e);
 				break;
-			case 'date':
+			case 'dates':
 				setRecently(Number(e) === 1);
 				break;
 			default:
@@ -106,12 +106,12 @@ const HomePage = () => {
 					<SelectBox
 						onChange={handleSelectChange}
 						data={data.countries}
-						name="Country"
+						name="countries"
 					/>
 					<SelectBox
 						onChange={handleSelectChange}
 						data={data.companies}
-						name="Company"
+						name="companies"
 					/>
 					<SelectBox
 						onChange={handleSelectChange}
@@ -119,7 +119,7 @@ const HomePage = () => {
 							{ id: 1, name: 'Recently' },
 							{ id: 2, name: 'Oldest' },
 						]}
-						name="Date"
+						name="dates"
 					/>
 				</div>
 			</header>

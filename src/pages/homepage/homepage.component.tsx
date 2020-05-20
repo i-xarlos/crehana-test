@@ -38,10 +38,10 @@ const DATA_QUERY = gql`
 
 const HomePage = () => {
 	const { loading, error, data } = useQuery(DATA_QUERY);
-	const [text, setText] = useState('');
-	const [countryId, setCountryId] = useState('');
-	const [companyId, setCompanyId] = useState('');
-	const [recently, setRecently] = useState(true);
+	const [text, setText] = useState<string>('');
+	const [countryId, setCountryId] = useState<string>('');
+	const [companyId, setCompanyId] = useState<string>('');
+	const [recently, setRecently] = useState<boolean>(true);
 
 	const handleInputChange = (e: string) => {
 		setText(e);

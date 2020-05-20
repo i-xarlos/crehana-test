@@ -5,7 +5,7 @@
   "tslint.enable": false,
   "workbench.colorCustomizations": {},
   "javascript.format.enable": true,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "eslint.alwaysShowStatus": true,
   // Place your settings in this file to overwrite default and user settings.
   "typescript.format.enable": true,

@@ -5,13 +5,14 @@ type Props = {
 	onChange?: any,
 	data?: any,
 };
+
 const SelectBox: React.FC<Props> = ({ name, data, onChange }) => {
-	const handleSelectChange = (e: any) => {
+	const handleSelectChange = (e: any): void => {
 		const val: string = e.target.value;
 		onChange && onChange(val, name);
 	};
 
-	const listCountries = () => {
+	const listCountries = (): JSX.Element => {
 		return (
 			data &&
 			data.map((country: any) => (

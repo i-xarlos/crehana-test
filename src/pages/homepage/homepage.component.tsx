@@ -36,18 +36,18 @@ const DATA_QUERY = gql`
 	}
 `;
 
-const HomePage = () => {
+const HomePage = (): JSX.Element => {
 	const { loading, error, data } = useQuery(DATA_QUERY);
 	const [text, setText] = useState<string>('');
 	const [countryId, setCountryId] = useState<string>('');
 	const [companyId, setCompanyId] = useState<string>('');
 	const [recently, setRecently] = useState<boolean>(true);
 
-	const handleInputChange = (e: string) => {
-		setText(e);
+	const handleInputChange = (e: string): void=> {
+			setText(e);
 	};
 
-	const handleSelectChange = (e: string, name: string) => {
+	const handleSelectChange = (e: string, name: string): void => {
 		switch (name.toLowerCase()) {
 			case 'countries':
 				setCountryId(e);

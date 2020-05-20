@@ -6,7 +6,7 @@ type Props = {
 };
 
 const SearchBox: React.FC<Props> = (props: any) => {
-	const handleInputChange = (e: any) => {
+	const handleInputChange = (e: any):void => {
 		const val = e.target.value;
 		props.onChange && props.onChange(val);
 	};

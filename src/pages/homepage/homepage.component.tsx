@@ -43,7 +43,7 @@ const HomePage = (): JSX.Element => {
 	const [companyId, setCompanyId] = useState<string>('');
 	const [recently, setRecently] = useState<boolean>(true);
 
-	const handleInputChange = (e: string): void=> {
+	const handleInputChange = (e: string): void => {
 			setText(e);
 	};
 
@@ -73,7 +73,7 @@ const HomePage = (): JSX.Element => {
 		);
 	if (error) return <div className="error">Error : {error} </div>;
 
-	const listJobs = () => {
+	const listJobs = (): JSX.Element => {
 		console.log(recently);
 		const search = data.jobs
 			.filter((job: any) => {

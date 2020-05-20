@@ -44,7 +44,7 @@ const HomePage = (): JSX.Element => {
 	const [recently, setRecently] = useState<boolean>(true);
 
 	const handleInputChange = (e: string): void => {
-			setText(e);
+		setText(e);
 	};
 
 	const handleSelectChange = (e: string, name: string): void => {
@@ -71,7 +71,7 @@ const HomePage = (): JSX.Element => {
 				<p>Loading...</p>
 			</div>
 		);
-	if (error) return <div className="error">Error : {error} </div>;
+	if (error) return <div className="error">Error loading</div>;
 
 	const listJobs = (): JSX.Element => {
 		console.log(recently);

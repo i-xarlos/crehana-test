@@ -91,7 +91,11 @@ const HomePage = () => {
 					: aDate.getTime() - bDate.getTime();
 			});
 
-		return search.length === 0 ? <div className="not-coencidences">No coincidences</div> : <CardList search={search} />;
+		return search.length === 0 ? (
+			<div className="not-coencidences">No coincidences</div>
+		) : (
+			<CardList search={search} />
+		);
 	};
 
 	return (
@@ -116,8 +120,8 @@ const HomePage = () => {
 					<SelectBox
 						onChange={handleSelectChange}
 						data={[
-							{ id: 1, name: 'Recently' },
 							{ id: 2, name: 'Oldest' },
+							{ id: 1, name: 'Recently' },
 						]}
 						name="dates"
 					/>

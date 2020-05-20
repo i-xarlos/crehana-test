@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/crehana-test/static/css/main.ae29d017.chunk.css",
+    "main.css": "/crehana-test/static/css/main.7c5c1f7e.chunk.css",
     "main.js": "/crehana-test/static/js/main.6091bbb0.chunk.js",
     "main.js.map": "/crehana-test/static/js/main.6091bbb0.chunk.js.map",
     "runtime-main.js": "/crehana-test/static/js/runtime-main.faeb7e06.js",
@@ -8,15 +8,15 @@
     "static/js/2.2bef22f8.chunk.js": "/crehana-test/static/js/2.2bef22f8.chunk.js",
     "static/js/2.2bef22f8.chunk.js.map": "/crehana-test/static/js/2.2bef22f8.chunk.js.map",
     "index.html": "/crehana-test/index.html",
-    "precache-manifest.f93fdf4b5c1e630bdf4afbb02c7f2183.js": "/crehana-test/precache-manifest.f93fdf4b5c1e630bdf4afbb02c7f2183.js",
+    "precache-manifest.dc0daa605ea79b70e275e78962e14af2.js": "/crehana-test/precache-manifest.dc0daa605ea79b70e275e78962e14af2.js",
     "service-worker.js": "/crehana-test/service-worker.js",
-    "static/css/main.ae29d017.chunk.css.map": "/crehana-test/static/css/main.ae29d017.chunk.css.map",
+    "static/css/main.7c5c1f7e.chunk.css.map": "/crehana-test/static/css/main.7c5c1f7e.chunk.css.map",
     "static/js/2.2bef22f8.chunk.js.LICENSE.txt": "/crehana-test/static/js/2.2bef22f8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.faeb7e06.js",
     "static/js/2.2bef22f8.chunk.js",
-    "static/css/main.ae29d017.chunk.css",
+    "static/css/main.7c5c1f7e.chunk.css",
     "static/js/main.6091bbb0.chunk.js"
   ]
 }

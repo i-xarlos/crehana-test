@@ -16,7 +16,7 @@
 		"apollo-boost": "^0.4.9",
 		"gh-pages": "^2.2.0",
 		"graphql": "^15.0.0",
-		"moment": "^2.25.3",
+		"moment": "^2.29.4",
 		"node-sass": "^4.14.1",
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
